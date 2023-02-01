@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100vw;
+  height: 12vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  background-color: #1e212d;
+  color: #acb4f4;
+  font-size: 2em;
+}
+
+#headerIcon {
+  width: 80px;
+  height: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+
+  width: 100vw;
+  height: 88vh;
+
+  background-color: #6870e0;
+}
+
+#cityInputContainer {
+  /* display: flex; */
+  margin-top: 50px;
+  gap: 10px;
+}
+
+#inputField {
+  width: 200px;
+  height: 30px;
+  font-size: 1em;
+
+  border-color: transparent;
+  border-radius: 5px;
+  background-color: #acb4f4;
+}
+
+#searchBtn {
+  width: 70px;
+  height: 33px;
+
+  font-size: 1em;
+  color: white;
+  background-color: #1e212d;
+
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+#weatherContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 300px;
+  height: 310px;
+  border-radius: 5px;
+  gap: 10px;
+
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+#cityName {
+  font-size: 2.5em;
+  color: #6870e0;
+}
+
+#currentTemperature {
+  font-size: 2em;
+}
+
+.weatherDetails {
+  font-size: 1.5em;
+}
